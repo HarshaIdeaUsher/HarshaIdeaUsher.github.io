@@ -21,8 +21,8 @@
     function onTelegramAuth(user) {
       alert('Logged in as ' + user.first_name + ' ' + user.last_name + 
             ' (' + user.id + (user.username ? ', @' + user.username : '') + ')');
-      // Redirect or load the game after login
-      window.location.href = 'https://harshaideausher.github.io/'; 
+      // Redirect to the Unity WebGL game page
+      window.location.href = 'game.html';
     }
   </script>
 </body>
